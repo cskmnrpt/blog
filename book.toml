@@ -1,0 +1,6 @@
+[book]
+authors = ["Manju R"]
+language = "en"
+multilingual = false
+src = "src"
+title = "blinking-cursor"
