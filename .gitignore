@@ -1,3 +1,24 @@
+# Hugo files
+/public/
+/resources/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE or Editor-specific files
+.vscode/
+.idea/
+
+# Hugo configuration file backups
+config.toml.bak
+config.yaml.bak
+config.json.bak
+
+# Temporary files from Hugo server or build
+/hugo.cache/
+/dist/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
