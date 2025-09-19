@@ -33,4 +33,8 @@ But here’s the thing: it’s not just coffee. It’s a ritual. It’s an excus
 
 Maybe that’s part of a good life too, the stuff that doesn’t make sense to anyone else, but makes you smile, even if it costs too much and your dad is convinced you’ve been brainwashed by coffee nerds into buying an overpriced rig just to sip bitter, sugarless sludge
 
+And here's the machine. To my dad, it's proof I've been brainwashed by coffee nerds. To me, it's a $300 ritual that delivers tiny shots of bitter, sugarless coffee I've somehow convinced myself are worth it.
+
+![My $300 coffee setup that my dad thinks is proof of my poor life choices](/coffee_machine.jpg)
+
 See you soon, Internet!
