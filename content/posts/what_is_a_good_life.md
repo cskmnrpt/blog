@@ -17,7 +17,7 @@ Here’s another twist. What if I have never experienced the _great_ versions of
 
 The hardest part about these questions is how subjective they are. What feels meaningful to me might look ridiculous to you. We all live from the center of our own tiny universes, staring at life from our personal front row seat.
 
-I once heard someone say: “When an truth speaking person says something, it just happens.” It's a big of clever wordplay, really. The point was that honesty has weight. If you only say what feels deeply true, then when it leaves your mouth, it’s already half-real. Or maybe it was just a fancy way of saying “don’t lie.” I’m not sure.
+I once heard someone say: “When an truth speaking person says something, it just happens.” It's a bit of clever wordplay, really. The point was that honesty has weight. If you only say what feels deeply true, then when it leaves your mouth, it’s already half-real. Or maybe it was just a fancy way of saying “don’t lie.” I’m not sure.
 
 Here’s my honesty: most of my inspiration has come from the internet. That’s equal parts blessing and curse. The good side is I’ve seen glimpses of greatness. The bad side is they’ve left me stranded in a weird in-between. Too aware to settle into mediocrity, too lazy, or maybe too scared, to chase greatness myself.
 
@@ -31,6 +31,6 @@ My dad, a lifelong tea drinker, spends about $2 a month on his habit. He cannot 
 
 But here’s the thing: it’s not just coffee. It’s a ritual. It’s an excuse to slow down. It’s me pretending I’m sophisticated while actually just jittery.
 
-Maybe that’s part of a good life too—the stuff that doesn’t make sense to anyone else, but makes you smile, even if it costs too much and your dad thinks you’ve been conned by Starbucks.
+Maybe that’s part of a good life too, the stuff that doesn’t make sense to anyone else, but makes you smile, even if it costs too much and your dad is convinced you’ve been brainwashed by coffee nerds into buying an overpriced rig just to sip bitter, sugarless sludge
 
 See you soon, Internet!
