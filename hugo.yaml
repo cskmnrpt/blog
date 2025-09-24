@@ -1,115 +1,79 @@
+# Base URL used when generating links to your pages
 baseURL: https://cskmnrpt.com/
-languageCode: en-us
-theme: ["PaperMod"]
 
+# The name of this wonderful theme ;-).
+theme: hugo-bearblog
+
+# Basic metadata configuration for your blog.
+title: "blinking cursor"
+author: "Manju R"
+copyright: "Copyright © 2025, Manju R."
+languageCode: en-us
+
+# Generate a nice robots.txt for SEO
 enableRobotsTXT: true
+
+# Build settings
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
 minifyOutput: true
 
+# Generate "Bearblog"-like URLs, see https://bearblog.dev/.
+disableKinds: ["taxonomy"]
+ignoreErrors: ["error-disable-taxonomy"]
+
+permalinks:
+  blog: "/:slug/"
+  tags: "/blog/:slug"
+
 params:
-  env: production
-  title: blinking cursor
+  # The "description" of your website. This is used in the meta data of your generated html.
   description: "Thoughts from the edge of a blank page"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Manju R
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
+  # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+  # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
+  # favicon: "images/favicon.png"
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+  # These "images" are used for the structured data templates. This will show up, when
+  # services like Twitter or Slack want to generate a preview of a link to your site.
+  # See https://gohugo.io/templates/internal#twitter-cards and
+  # https://gohugo.io/templates/internal#open-graph.
+  # images: ["images/share.png"]
 
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+  # Another "title" :-). This one is used as the site_name on the Hugo's internal
+  # opengraph structured data template.
+  # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+  title: "blinking cursor"
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: Your Name
-    subtitle: "Your bio here"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+  # This theme will, by default, inject a made-with-line at the bottom of the page.
+  # You can turn it off, but we would really appreciate if you don't :-).
+  # hideMadeWithLine: true
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+  # By default, if you want to read more than one blog post you have to always go
+  # back to the /blog page.
+  # By enabling this feature each blog post will have at the end a navigator
+  enablePostNavigator: true
 
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/cskmnrpty"
-    - name: github
-      url: "https://github.com/cskmnrpt/"
-    - name: linkedin
-      url: "https://linkedin.com/in/cskmnrpty/"
+  # By default, this theme displays dates with a format like "02 Jan, 2006", but
+  # you can customize it by setting the `dateFormat` param in your site's config
+  # file. See Hugo's Format function docs for details.
+  dateFormat: "2 Jan, 2006"
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+# Configure markup highlighter to match "Bearblog" aesthetics
+markup:
+  highlight:
+    style: 'friendly'
+    lineNos: true
+    lineNumbersInTable: false
+    codeFences: true
 
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-
+# Menu configuration
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 30
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 40
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Blog"
+      url: "/blog/"
+      weight: 2
