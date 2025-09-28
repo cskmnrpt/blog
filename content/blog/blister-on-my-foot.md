@@ -20,7 +20,7 @@ So why did I decide to walk eleven kilometers?
 
 There's this weird undercurrent of boredom I've been carrying around. Mind you, it's not the kind of boredom that makes you restless and pushes you to *do* something. It's not bothersome. You have to pay attention to even notice it. It doesn't demand action, but it's there, like a quiet companion sitting in the corner of my consciousness, silently watching as days play out.
 
-I think I can associate a personality to this feeling now. Is it good? I don't know. But I'm pretty sure I'd prefer it not to be there. Maybe it's just me, the real me, atching the consciousness of active personalities move with the tides of life. Is existence really that bland?
+I think I can associate a personality to this feeling now. Is it good? I don't know. But I'm pretty sure I'd prefer it not to be there. Maybe it's just me, the real me, watching the consciousness of active personalities move with the tides of life. Is existence really that bland?
 
 Looking back at the past few years, I don't remember much of anything. Ironically, I feel good about not having memories. It lessens the burden of the characters you're playing.
 
